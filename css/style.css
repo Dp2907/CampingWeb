@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+#header {
+  padding: 20px 10px 10px 30px;
+  background-color: bisque;
+  color: black;
+}
+#header a {
+  margin: 0 10px 0 5px;
+}
+#carousel img{
+  width: 100%;
+  display:block;
+  border-radius: 0 0 150px 150px;
+  object-position: 0 0 -40%;
+  object-fit: none;
+}
