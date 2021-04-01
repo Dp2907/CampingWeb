@@ -1,21 +1,101 @@
-* {
+body {
   margin: 0;
   padding: 0;
-  text-decoration: none;
+  background-color: hsl(20deg 47% 96%);;
 }
 
-#header {
-  padding: 20px 10px 10px 30px;
-  background-color: bisque;
+.header {
+  background-color: #f8e1db;
+  padding: 15px 10px 10px 15px;
+  color: rgb(0, 0, 0);
+}
+
+.header-navbar a {
+  background-color: hsl(12deg 67% 92%);
   color: black;
-}
-#header a {
   margin: 0 10px 0 5px;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
 }
-#carousel img{
-  width: 100%;
-  display:block;
+
+.header-navbar a:hover {
+  color: #b94123;
+}
+
+.carousel {
+  background-image: url(../images/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
   border-radius: 0 0 150px 150px;
-  object-position: 0 0 -40%;
-  object-fit: none;
+}
+
+.service{
+  margin: -150px 0 0 0;
+  padding: 20px;
+}
+
+.service-item{
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.service-item-content{
+  background-color: white;
+  border-radius: 30px;
+  padding:20px;
+}
+
+.service-item img{
+  height: 82px;
+}
+
+.activity{
+  margin: 450px 0 0 0;
+}
+
+.activity-title {
+  text-align: center;
+}
+
+.activity-item{
+  float:left;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.activity-item-content{
+  background-color: white;
+  border-radius: 30px;
+  padding:20px;
+}
+
+.activity-item-content button{
+  padding:20px 50px;
+  border-radius:50px;
+  background-color: rgb(218, 218, 218);
+  border:none;
+  color: rgb(124, 124, 124);
+  cursor:pointer;
+}
+
+.activity-item-content img{
+  border-radius: 20px;
+  width: 100%;
+}
+
+#view-all-button{
+  width: 150px;
+  height: 50px;
+  border-radius:50px;
+  background-color: hsl(20deg 47% 96%);
+  border:1px solid hsl(12deg 73% 78%);
+  color: hsl(12deg 73% 78%);
 }
