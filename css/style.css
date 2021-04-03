@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: hsl(20deg 47% 96%);;
+  background-color: #faf4f1;
 }
 
 .header {
@@ -15,7 +15,7 @@ body {
 }
 
 .header-navbar a {
-  background-color: hsl(12deg 67% 92%);
+  background-color: #f8e1db;
   color: black;
   margin: 0 10px 0 5px;
   text-decoration: none;
@@ -99,9 +99,9 @@ body {
   width: 150px;
   height: 50px;
   border-radius:50px;
-  background-color: hsl(20deg 47% 96%);
-  border:1px solid hsl(12deg 73% 78%);
-  color: hsl(12deg 73% 78%);
+  background-color: #faf4f1;
+  border:1px solid #f0ae9e;
+  color: #f0ae9e;
   font-weight: bold;
 }
 .contact{
