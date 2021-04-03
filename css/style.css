@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -91,11 +95,18 @@ body {
   width: 100%;
 }
 
-#view-all-button{
+.activity-title button{
   width: 150px;
   height: 50px;
   border-radius:50px;
   background-color: hsl(20deg 47% 96%);
   border:1px solid hsl(12deg 73% 78%);
   color: hsl(12deg 73% 78%);
+  font-weight: bold;
+}
+.contact{
+  background-color: #e6e6e6;
+}
+.contact-left-content img{
+  display: inline;
 }
