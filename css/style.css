@@ -1,9 +1,11 @@
-*{
+* {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.clearfix{
-  clear:both;
+.clearfix {
+  clear: both;
 }
 
 body {
@@ -16,7 +18,7 @@ body {
   background-color: #f8e1db;
   padding: 15px 10px 10px 15px;
   color: rgb(0, 0, 0);
-  position:fixed;
+  position: fixed;
   z-index: 10;
   width: 100%;
 }
@@ -43,12 +45,12 @@ body {
   border-radius: 0 0 150px 150px;
 }
 
-.service{
+.service {
   margin: -150px 0 0 0;
   padding: 20px;
 }
 
-.service-item{
+.service-item {
   float: left;
   width: 25%;
   text-align: center;
@@ -56,72 +58,74 @@ body {
   box-sizing: border-box;
 }
 
-.service-item-content{
+.service-item-content {
   background-color: white;
   border-radius: 30px;
-  padding:20px;
+  padding: 20px;
 }
 
-.service-item img{
+.service-item img {
   height: 82px;
 }
 
-.activity{
-  margin: 450px 0 0 0;
+.activity {
+  margin: 6rem 0 0 0;
 }
 
 .activity-title {
   text-align: center;
 }
 
-.activity-item{
-  float:left;
+.activity-item {
+  float: left;
   width: 25%;
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
 }
 
-.activity-item-content{
+.activity-item-content {
   background-color: white;
   border-radius: 30px;
-  padding:20px;
+  padding: 20px;
 }
 
-.activity-item-content button{
-  padding:20px 50px;
-  border-radius:50px;
+.activity-item-content button {
+  padding: 20px 50px;
+  border-radius: 50px;
   background-color: rgb(218, 218, 218);
-  border:none;
+  border: none;
   color: rgb(124, 124, 124);
-  cursor:pointer;
+  cursor: pointer;
+  margin: 1rem;
 }
 
-.activity-item-image img{
+.activity-item-image img {
   border-radius: 20px;
   width: 100%;
 }
 
-.activity-title button{
+.activity-title button {
   width: 150px;
   height: 50px;
-  border-radius:50px;
+  border-radius: 50px;
   background-color: #faf4f1;
-  border:1px solid #f0ae9e;
+  border: 1px solid #f0ae9e;
   color: #f0ae9e;
   font-weight: bold;
+  margin-bottom: 1.5rem;
 }
 
 .activity-item-image {
   position: relative;
 }
 
-.activity-item-image i{
-  position:absolute;
-  right:30px;
-  top:30px;
+.activity-item-image i {
+  position: absolute;
+  right: 30px;
+  top: 30px;
   color: rgb(212, 59, 84);
-  background-color: rgba(230, 230,230, .8);
+  background-color: rgba(230, 230, 230, 0.8);
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -129,13 +133,125 @@ body {
   border-radius: 10px;
 }
 
-.contact{
-  background-color: #e6e6e6;
-}
-.contact-left-content img{
-  display: inline;
+.contact {
+  background-color: #f8e1db;
+  width: 100%;
+  position: relative;
+  height: 24.5rem;
 }
 
-.contact{
-  float:left;
+.contact__left {
+  width: 40%;
+  height: 24.5rem;
+  top: 0;
+  left: 0;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__left__mask {
+  background-color: #f8e1db;
+  margin: 0 0 0 -20rem;
+}
+
+.contact__left__img {
+  position: absolute;
+  bottom: 0;
+  right: 1.5rem;
+}
+
+.contact__right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  margin-left: 40rem;
+  margin-top: 8rem;
+}
+
+.contact__right h1,
+p {
+  margin-bottom: 1rem;
+  color: rgb(93, 93, 93);
+}
+
+.contact__right b {
+  size: 1rem;
+  color: rgb(93, 93, 93);
+}
+
+.contact__right__detail {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.contact__right__download {
+  margin-right: 2rem;
+}
+
+.contact__right__download a {
+  text-decoration: none;
+}
+
+.contact__right__download img {
+  margin-top: 1rem;
+}
+
+.contact__right__follow a {
+  text-decoration: none;
+  color: rgb(243, 104, 70);
+  margin: 1rem 0.5rem 0 0;
+}
+
+.contact__right__follow i {
+  margin-top: 1.5rem;
+}
+
+.footer {
+  background-color: #f8e1db;
+  border-radius: 7rem 7rem 0 0;
+  margin-top: 7rem;
+  padding: 5rem;
+}
+
+.footer__details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:flex-start;
+  margin-right: 1rem;
+}
+
+.footer__information{
+  width:40%;
+}
+.footer__details h1{
+  font-size: 1.2rem;
+}
+
+.footer__help1 a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.footer__plan a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.footer__help2 a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.footer__copyright{
+  text-align: center;
+  margin-top: 1rem;
 }
